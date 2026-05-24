@@ -1,46 +1,53 @@
-🖼️ Image Gallery Project
+# 🖼️ Image Gallery Project
 
-A modern, responsive Image Gallery web application built with HTML, CSS, and JavaScript,
-designed to showcase clean UI design, structured layout, and multiple types of personal work in one place.
+A clean and responsive Image Gallery web project built using HTML, CSS, and JavaScript.  
+It is designed to showcase multiple types of personal work in a simple and organized layout.
 
+---
 
- 🎯 Key Highlights
+## ✨ Overview
+
+This project presents a structured gallery that includes **Word files, Excel sheets, and Web Design projects** in a single interface.
+
+It focuses on simplicity, clarity, and proper content presentation using basic frontend technologies.
+
+---
+
+## 🎯 Key Highlights
 
 - 🧩 Clean and minimal UI design  
-- 📱 Fully responsive (Mobile / Tablet / Desktop)  
-- ⚡ Lightweight and fast-loading  
-- 🖼️ Organized image and project presentation  
-- 📁 Includes Word, Excel, and Web Design project showcases  
-- 🎨 Modern layout styling with CSS   
+- 📱 Fully responsive layout  
+- 🖼️ Organized visual presentation of content  
+- 📁 Includes Word, Excel, and Web Design projects  
+- 🎨 Simple and structured interface  
+- 🔧 Easy to understand and extend  
 
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla JS)
 
+---
 
-⚡ Performance
-- Lightweight static website
-- Optimized assets and images
+## 🎯 Purpose
 
-
-## 🎯 Purpose of Project
-
-This project was created to strengthen core frontend development skills and demonstrate real-world content presentation:
-
-- Structuring multi-category web projects  
-- Displaying different file types in a visual format  
-- Improving UI/UX understanding  
-- Practicing responsive design  
-- Working with Git & GitHub workflows  
+This project was created to practice frontend development and demonstrate how different types of content can be organized and displayed in a simple, structured layout using web technologies.
 
 ---
 
 ## 👩‍💻 Developer
 
 **Esha Kewalramani**
-- Lightbox preview
+
+---
+
+## 📌 Note
+
+This project can be extended in future with:
+- Image filtering by category (Word / Excel / Web Design)
+- Lightbox preview feature
 - Animation effects
 - Search functionality
