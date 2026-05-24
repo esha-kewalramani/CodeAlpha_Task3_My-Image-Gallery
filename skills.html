@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skills</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav>
+<h2>My Portfolio</h2>
+<div>
+<a href="index.html" target="_blank">Home</a>
+<a href="projects.html" target="_blank">Projects</a>
+<a href="skills.html" target="_blank">Skills</a>
+</div>
+</nav>
+<section class="hero">
+<h1 id="demo"></h1>
+<p>What I am learning and improving</p>
+</section>
+<section class="skills">
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><div class="fill html"></div></div>
+</div>
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><div class="fill css"></div></div>
+</div>
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div class="fill js"></div></div>
+</div>
+<div class="skill">
+<p>MS Word</p>
+<div class="bar"><div class="fill word"></div></div>
+</div>
+ <div class="skill">
+<p>MS Excel</p>
+<div class="bar"><div class="fill excel"></div></div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <h3>My Image Gallery</h3>
+        <p>Designed with creativity, passion, and modern web aesthetics.</p>
+        <div class="social-links">
+            <a href="https://github.com/esha-kewalramani" target="_blank">GitHub</a>
+            <a href="https://esha-kewalramani.github.io/Codealpha_Task1_My-Portfolio/" target="_blank">Portfolio</a>
+        </div>
+        <p class="copyright">
+            © 2026 My Gallery | All Rights Reserved
+        </p>
+    </div>
+</footer>
+<script>
+    let text ="My skills";
+    let i=0; 
+    function typewriter(){
+        if(i<text.length){
+            document.getElementById("demo").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typewriter, 250);
+        }
+    }
+    typewriter();
+</script>
+</body>
+</html>

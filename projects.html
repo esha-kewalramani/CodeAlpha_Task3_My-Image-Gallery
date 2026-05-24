@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav>
+<h2>My Portfolio</h2>
+<div>
+<a href="index.html"target="_blank">Home</a>
+<a href="projects.html" target="_blank">Projects</a>
+<a href="skills.html" target="_blank">Skills</a>
+</div>
+</nav>
+<section class="hero">
+<h1 id="script"></h1>
+<p>MS Word • MS Excel • Web Design</p>
+</section>
+<div class="filters">
+<button onclick="filter('all')">All</button>
+<button onclick="filter('word')">MS Word</button>
+<button onclick="filter('excel')">MS Excel</button>
+<button onclick="filter('web')">Web Design</button>
+</div>
+<div class="gallery">
+<img src="assets/images/portfolio.png" class="item web">
+<img src="assets/images/table.png" class="item web tall">
+<img src="assets/images/form.png" class="item web">
+<img src="assets/images/employeeform2.png" class="item web">
+<img src="assets/images/studentresultchecker.png" class="item web">
+<img src="assets/images/signup.png" class="item web">
+<img src="assets/images/employeeform.png" class="item web">
+<img src="assets/images/simpleform.png" class="item web">
+<img src="assets/images/calculator.png" class="item web">
+  <!-- WORD -->
+<img src="assets/images/b&wcard.png" class="item word">
+<img src="assets/images/bluecard.png" class="item word">
+<img src="assets/images/card.png" class="item word">
+<img src="assets/images/doc.png" class="item word">
+<img src="assets/images/Certificate.png" class="item word">
+<img src="assets/images/yellowcard.png" class="item word">
+<img src="assets/images/IDcard.png" class="item word">
+  <!-- EXCEL -->
+<img src="assets/images/attendancesheet.png" class="item excel">
+<img src="assets/images/marsheet.png" class="item excel">
+<img src="assets/images/invoicereport.png" class="item excel">
+</div>
+<div id="lightbox">
+  <span onclick="closeBox()">&times;</span>
+
+  <button onclick="prevImg()" class="prev">❮</button>
+
+  <img id="lightbox-img">
+
+  <button onclick="nextImg()" class="next">❯</button>
+</div>
+<footer class="footer">
+    <div class="footer-content">
+        <h3>My Image Gallery</h3>
+        <p>Designed with creativity, passion, and modern web aesthetics.</p>
+        <div class="social-links">
+            <a href="https://github.com/esha-kewalramani" target="_blank">GitHub</a>
+            <a href="https://esha-kewalramani.github.io/Codealpha_Task1_My-Portfolio/" target="_blank">Portfolio</a>
+        </div>
+        <p class="copyright">
+            © 2026 My Gallery | All Rights Reserved
+        </p>
+    </div>
+</footer>
+<script src="assets/js/gallery.js"></script>
+<script>
+      let text ="My Projects";
+    let i=0; 
+    function typewriter(){
+        if(i<text.length){
+            document.getElementById("script").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typewriter, 250);
+        }
+    }
+    typewriter();
+</script>
+</body>
+</html>
