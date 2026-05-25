@@ -28,7 +28,7 @@ It focuses on simplicity, clarity, and proper content presentation using basic f
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ---
 
