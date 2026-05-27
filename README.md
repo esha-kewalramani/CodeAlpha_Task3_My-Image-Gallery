@@ -5,11 +5,8 @@ It is designed to showcase multiple types of personal work in a simple and organ
 
 ---
 
-## ✨ Overview
-
-This project presents a structured gallery that includes **Word files, Excel sheets, and Web Design projects** in a single interface.
-
-It focuses on simplicity, clarity, and proper content presentation using basic frontend technologies.
+##✨ Overview
+This project showcases a collection of my own projects and work samples in a clean and organized gallery format. It includes Word documents, Excel spreadsheets, and Web Design projects, allowing visitors to explore different types of work from a single interface.
 
 ---
 
